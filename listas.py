@@ -12,3 +12,5 @@ Permite cualquier tipo de datos
 Son mutables: crecer, decrecer, agregar, cambiar, eliminar elementos
 Son indexadas
 """
+#Atributos
+#len(), pop(), remove(), clear(), index(), del, sort(), reverse, extende(), zip()
