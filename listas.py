@@ -9,4 +9,6 @@ frutas = ["Manzana","Mango","Fresa"]
 """
 Listas = []
 Permite cualquier tipo de datos
+Son mutables: crecer, decrecer, agregar, cambiar, eliminar elementos
+Son indexadas
 """
