@@ -21,3 +21,6 @@ print(len(deportes))
 
 texto = "SebastianVilladaJaramillo"
 print(len(texto))
+
+#acceder algún deporte
+print(deportes[3])
