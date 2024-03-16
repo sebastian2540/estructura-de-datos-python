@@ -31,4 +31,5 @@ print(deportes[-3])
 deportes.append("atletismo")
 print(deportes)
 #insertar(indice, elemento): insertar en una posicion determinada
-
+deportes.insert(2, "golf")
+print(deportes)
