@@ -22,5 +22,11 @@ print(len(deportes))
 texto = "SebastianVilladaJaramillo"
 print(len(texto))
 
-#acceder algún deporte
+#acceder algún deporte, ejemplo Voleibol
 print(deportes[3])
+print(deportes[-3])
+
+#agregar deportes a la lista:
+#append(elemento): insertar al final de la lista
+deportes.append("atletismo")
+print(deportes)
