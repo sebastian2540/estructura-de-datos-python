@@ -38,18 +38,38 @@ deportes[2] = "esgrima"
 print(deportes)"""
 #crear 2 lista, una vacia y otra lista numerica. Validar que numeros son impares y agregalos a la lista vacia. Mostrar lista con los numeros impares
 
-impares = []
+"""impares = []
 numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,15,17,18,19,20]
 print(len(numeros))
 
 for n in numeros:
     if n % 2 !=0:
         impares.append(n)
-print(impares)
+print(impares)"""
 
 #Eliminar elementos
 #pop(indice): Elimina elementos en la posicion especificada
-#pov(): elimina el ultimo elemento y muestra el elemento eliminado
+#pop(): elimina el ultimo elemento y muestra el elemento eliminado
 #remove(elemento): elimna elemento pasado como argumento
 #clear(): elimina los elementos de la lista
-#del nombre_lista: elimina el objeto, es decir, la lista.
+#del nombre_lista: elimina el objeto, es decir, la lista
+
+#Conocer la posición de un elemento
+"""deporte = ["futbol","tenis","basquetboll","voleibol","patinaje","natación"]
+posicion = deporte.index("patinaje")
+print(posicion)"""
+
+#crear 2 listas, una vacia y una numerica, eliminar de la lista numerica los multiplos de 7 y almacenar en la lista los numeros eliminados. Mostrar las 2 listas, la de numeros eliminados y la numerica con los numeros restantes.
+
+multiplos = []
+numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,15,17,18,19,20,21]
+
+for n in numeros:
+    if n % 7 == 0:
+        multiplos.append(n)
+        numeros.remove(n)
+print("Numeros eliminados: ", multiplos)
+print("Lista: ", numeros)
+
+
+
