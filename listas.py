@@ -30,3 +30,5 @@ print(deportes[-3])
 #append(elemento): insertar al final de la lista
 deportes.append("atletismo")
 print(deportes)
+#insertar(indice, elemento): insertar en una posicion determinada
+
