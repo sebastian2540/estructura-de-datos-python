@@ -61,7 +61,7 @@ print(posicion)"""
 
 #crear 2 listas, una vacia y una numerica, eliminar de la lista numerica los multiplos de 7 y almacenar en la lista los numeros eliminados. Mostrar las 2 listas, la de numeros eliminados y la numerica con los numeros restantes.
 
-multiplos = []
+"""multiplos = []
 numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,15,17,18,19,20,21]
 
 for n in numeros:
@@ -69,7 +69,23 @@ for n in numeros:
         multiplos.append(n)
         numeros.remove(n)
 print("Numeros eliminados: ", multiplos)
-print("Lista: ", numeros)
+print("Lista: ", numeros)"""
 
+#Organizar de forma ascendente y descendente: sort()
+#(), reverse(), soporte(reverse=True)
+
+num = [1,25,3,8,100,40,14,2,38,0,5,54]
+#ascendente: de menor a mayor
+num.sort()
+print(num)
+#descendente: de mayor a menor
+num.sort(reverse=True)
+print(num)
+
+num.reverse()
+print(num)
+
+num.reverse()
+print(num)
 
 
