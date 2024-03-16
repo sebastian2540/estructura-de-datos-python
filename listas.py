@@ -33,3 +33,7 @@ print(deportes)
 #insertar(indice, elemento): insertar en una posicion determinada
 deportes.insert(2, "golf")
 print(deportes)
+#modificar o cambiar un deporte
+deportes[2] = "esgrima"
+print(deportes)
+#crear 2 lista, una vacia y otra lista numerica. Validar que numeros son impares y agregalos a la lista vacia.
