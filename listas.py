@@ -74,7 +74,7 @@ print("Lista: ", numeros)"""
 #Organizar de forma ascendente y descendente: sort()
 #(), reverse(), soporte(reverse=True)
 
-num = [1,25,3,8,100,40,14,2,38,0,5,54]
+"""num = [1,25,3,8,100,40,14,2,38,0,5,54]
 #ascendente: de menor a mayor
 num.sort()
 print(num)
@@ -86,6 +86,4 @@ num.reverse()
 print(num)
 
 num.reverse()
-print(num)
-
-
+print(num)"""
