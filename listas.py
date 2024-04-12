@@ -87,3 +87,36 @@ print(num)
 
 num.reverse()
 print(num)"""
+
+#Ejercicio de Listas
+#Crea dos lista vacía llamada departamentos Colombia y la otra Capital, pida al usuario la cantidad de departamentos a ingresar, a través de un ciclo for pida al usuario que ingrese el departamento de Colombia que desee y su capital, agregue esta información a la lista y luego esta sea ordenada en orden descendente. a. Se debe imprimir la lista con los valores organizados de forma descendentes. b. Debe imprimir además los 2 últimos departamentos ingresados. c. Mostar los departamentos ingresados y su capital
+
+departamentos_colombia = []
+capitales = []
+
+cantidad_departamentos = int(input("Ingrese la cantidad de departamentos a ingresar: "))
+
+for i in range (cantidad_departamentos):
+    departamento = input(f"Ingrese el nombre del departamento {i + 1} de Colombia: ")
+    capital = input(f"Ingrese el nombre de la capital de {departamento} de Colombia: ")
+    departamentos_colombia.append(departamento)
+    capitales.append(capital)
+
+print("\nLos 2 ultimos departamentos ingresados son: ", departamentos_colombia[-2:])
+for departamento in departamentos_colombia[-2:]:
+    print(departamento)
+
+departamentos_colombia.sort(reverse=True)
+capitales.sort(reverse=True)
+
+print("\nLista de departamentos de Colombia en orden descendente: ") 
+for departamento in departamentos_colombia:
+    print(departamento)
+
+print("\nLista de capitales de Colombia en orden descendente:")
+for capital in capitales:
+    print(capital)
+
+print("\nDepartamentos ingresados y sus capitales")
+for i in range(len(departamentos_colombia)):
+    print(f"{departamentos_colombia[i]}:{capitales[i]}")
